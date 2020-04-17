@@ -1,7 +1,9 @@
-import React, { Component } from "react";
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import React, { Component } from "./node_modules/react";
+import Jumbotron from './node_modules/react-bootstrap/Jumbotron';
+import Container from './node_modules/react-bootstrap/Container';
 
-class valJumbotron extends Component {
+
+class ValJumbotron extends Component {
 
     render() {
         return(
@@ -14,4 +16,4 @@ class valJumbotron extends Component {
     }
 }
 
-export default valJumbotron;
+export default ValJumbotron;

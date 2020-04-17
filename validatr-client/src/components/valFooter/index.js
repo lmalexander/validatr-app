@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import Navbar from 'react-bootstrap/Navbar';
+import React, { Component } from "./node_modules/react";
+import Navbar from './node_modules/react-bootstrap/Navbar';
 
-class valFooter extends Component {
+class ValFooter extends Component {
 
     render() {
         return (
@@ -23,4 +23,4 @@ class valFooter extends Component {
     }
 }
 
-export default valFooter;
+export default ValFooter;

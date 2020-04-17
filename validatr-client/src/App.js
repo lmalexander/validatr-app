@@ -1,31 +1,40 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Header from "./components/valHeader";
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+import {
+  BrowserRouter as Router,
+  // Switch,
+  Route,
+  // Link
+} from "react-router-dom";
+import ValHeader from "./components/ValHeader";
+import ValJumbotron from './components/ValJumbotron';
+import ValFooter from './components/ValFooter';
+import ValidatrHome from "./pages/ValidatrHome";
+import NeverMind from "./pages/NeverMind";
 
+class App extends Component {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  render() {
+    return (
+    <Router> 
+      <div>
+        <Container>
+          <ValHeader />
+          <ValJumbotron />
+
+          <ValFooter />
+          <Route path="/" exact component={ValidatrHome} />
+          <Route path="nevermind" exact component={NeverMind} />
+        </Container>
+      </div> 
+    </Router>
   );
+  };
+  
 }
 
 export default App;

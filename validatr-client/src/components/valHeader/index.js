@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import Navbar from 'react-bootstrap/Navbar';
+import React, { Component } from "./node_modules/react";
+import Navbar from './node_modules/react-bootstrap/Navbar';
 
-class valHeader extends Component {
+class ValHeader extends Component {
 
     render() {
         return (
@@ -23,4 +23,4 @@ class valHeader extends Component {
     }
 }
 
-export default valHeader;
+export default ValHeader;
