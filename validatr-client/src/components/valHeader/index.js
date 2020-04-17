@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import Navbar from 'react-bootstrap/Navbar';
 
-class Header extends Component {
+class valHeader extends Component {
 
     render() {
         return (
@@ -9,7 +10,7 @@ class Header extends Component {
                     <Navbar.Brand href="#home">
                     <img
                         alt=""
-                        src="/logo.svg"
+                        src=""
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
@@ -22,4 +23,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default valHeader;

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Table from 'react-bootstrap/Table';
 
-class LogTable extends Component {
+class nmLogTable extends Component {
 
     render() {
         return(
@@ -26,3 +26,5 @@ class LogTable extends Component {
         )
     }
 }
+
+export default nmLogTable;
