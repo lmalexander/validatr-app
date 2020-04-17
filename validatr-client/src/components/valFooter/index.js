@@ -1,5 +1,5 @@
-import React, { Component } from "./node_modules/react";
-import Navbar from './node_modules/react-bootstrap/Navbar';
+import React, { Component } from "react";
+import Navbar from 'react-bootstrap/Navbar';
 
 class ValFooter extends Component {
 
@@ -14,7 +14,7 @@ class ValFooter extends Component {
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
-                    />{' '}
+                    />
                     system X.V-0.21467
                     </Navbar.Brand>
                 </Navbar>

@@ -26,9 +26,10 @@ class App extends Component {
           <ValHeader />
           <ValJumbotron />
 
-          <ValFooter />
+          
           <Route path="/" exact component={ValidatrHome} />
-          <Route path="nevermind" exact component={NeverMind} />
+          <Route path="/nevermind" exact component={NeverMind} />
+          <ValFooter />
         </Container>
       </div> 
     </Router>

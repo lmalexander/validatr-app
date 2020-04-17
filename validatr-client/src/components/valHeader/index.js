@@ -1,5 +1,6 @@
-import React, { Component } from "./node_modules/react";
-import Navbar from './node_modules/react-bootstrap/Navbar';
+import React, { Component } from "react";
+import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
 
 class ValHeader extends Component {
 
@@ -14,9 +15,13 @@ class ValHeader extends Component {
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
-                    />{' '}
+                    />
                     validatr
                     </Navbar.Brand>
+                    <Button 
+                        as="input"
+                        type="submit"
+                        value="logout" />
                 </Navbar>
             </div>  
         )

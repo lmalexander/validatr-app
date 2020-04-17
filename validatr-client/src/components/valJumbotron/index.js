@@ -1,6 +1,6 @@
-import React, { Component } from "./node_modules/react";
-import Jumbotron from './node_modules/react-bootstrap/Jumbotron';
-import Container from './node_modules/react-bootstrap/Container';
+import React, { Component } from "react";
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
 
 
 class ValJumbotron extends Component {
